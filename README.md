@@ -8,6 +8,12 @@ _Get started using GitHub in less than an hour._
  <img alt="Hallo everyone" src="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg">
 </picture>
 
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
 
 ## Welcome
 
